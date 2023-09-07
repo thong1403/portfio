@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b7c8dae1.css",
+    "main.js": "/static/js/main.2d778159.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/hinh-nen-cong-nghe-1.jpg": "/static/media/hinh-nen-cong-nghe-1.fd95c28f7ee8250a7ed7.jpg",
+    "static/media/download (7).jpg": "/static/media/download (7).3b88d610e813022564e7.jpg",
+    "static/media/1538998300flixgothumb.jpg": "/static/media/1538998300flixgothumb.474500255db25617eb3f.jpg",
+    "static/media/Rikkei-Tai-Ptit-2022.2.jpg": "/static/media/Rikkei-Tai-Ptit-2022.2.2ccad6894f55a74f93a3.jpg",
+    "static/media/3Iki2GeMqojXZtpTDg0C_64215869d7220_cvtpl.jpg": "/static/media/3Iki2GeMqojXZtpTDg0C_64215869d7220_cvtpl.b39c053a0c229ab791b9.jpg",
+    "static/media/th (1).jpg": "/static/media/th (1).5489f6bb648b11542c33.jpg",
+    "static/media/th (3).jpg": "/static/media/th (3).badbb525d70917a109ed.jpg",
+    "index.html": "/index.html",
+    "main.b7c8dae1.css.map": "/static/css/main.b7c8dae1.css.map",
+    "main.2d778159.js.map": "/static/js/main.2d778159.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7c8dae1.css",
+    "static/js/main.2d778159.js"
+  ]
+}
