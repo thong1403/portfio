@@ -1,0 +1,68 @@
+.img-profile{
+    margin-top: 5%;
+    width: 150px;
+    border-radius: 100%;
+}
+.thongtin{
+    background-color: white;
+    padding: 2%;
+    border-radius: 20px;
+    
+}
+.tongthongtin{
+    display: flex;
+    justify-content: space-around;
+}
+.container-kinhnghiem p{
+ font-size: 13px;
+}
+.container-kinhnghiem{
+    margin-top: 20px;
+}
+.tong-khung-kinhnghieem{
+    background-color: white;
+    padding: 1%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.tong-khung-kinhnghieem img{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.img-back-groud{
+    position: relative;
+    height: 450px;
+}
+.khung-to{
+    position: absolute;
+    top: 16%;
+    left: 3%;
+}
+.khung-profile{
+    color: rgb(229, 202, 202);
+    font-size: 20px;
+    font-weight: 600;
+}
+.content-thongtin{
+    margin-top: 65px;
+} 
+.tongthongtin{
+    margin-top: 13%;
+}
+.name{
+    
+    background-color: white;
+}
+.content-duan {
+    background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+    margin: 3px;
+    max-width: 24% !important;
+}
+.content-duan p{
+    font-size: 11px;
+}
+.img2{
+    height: 142px;
+}
