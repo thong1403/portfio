@@ -3,7 +3,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Home.css";
 import imgProfile from "../img/3Iki2GeMqojXZtpTDg0C_64215869d7220_cvtpl.jpg";
-import logoRikkei from "../img/Rikkei-Tai-Ptit-2022.2.jpg";
 import sf from "../img/download (7).jpg";
 import imgBackgroud from "../img/hinh-nen-cong-nghe-1.jpg";
 import img1 from "../img/th (1).jpg";
@@ -14,7 +13,7 @@ export default function HomePage() {
   useEffect(() => {
     // Khởi tạo thư viện AOS
     AOS.init({
-      duration: 2500, // Độ dài thời gian của hiệu ứng (milliseconds)
+      duration: 3000, // Độ dài thời gian của hiệu ứng (milliseconds)
     });
   }, []);
   return (
@@ -74,7 +73,7 @@ export default function HomePage() {
           </h3>
 
           <div className="col-2"></div>
-          <div className="col-3 tong-khung-kinhnghieem" data-aos="fade-up">
+          {/* <div className="col-3 tong-khung-kinhnghieem" data-aos="fade-up">
             <img src={logoRikkei} alt="" className="w-100 h-50" />
             <div className="text-left container-kinhnghiem">
               <p>
@@ -87,7 +86,7 @@ export default function HomePage() {
                 <b>WORKPLACE : </b> D8 RIKKEISOFT
               </p>
             </div>
-          </div>
+          </div> */}
           <div className="col-3 tong-khung-kinhnghieem" data-aos="fade-up">
             <img src={sf} alt="" className="w-100 h-50" />
             <div className="text-left container-kinhnghiem">
@@ -129,7 +128,7 @@ export default function HomePage() {
                   register
                 </p>
                 <p>
-                  <b>Link git : </b> https://github.com/thong1403/quizlet.git
+                  <b>Link git : </b> <a href="https://github.com/thong1403/quizlet.git">https://github.com/thong1403/quizlet.git</a>
                 </p>
               </div>
             </div>
@@ -156,7 +155,8 @@ export default function HomePage() {
                 </p>
                 <p>
                   <b>Link git : </b>{" "}
-                  https://github.com/thong1403/app-ratingthong.git
+                  <a href="https://github.com/thong1403/app-rating-thong.git">https://github.com/thong1403/app-rating-thong.git</a>
+                  
                 </p>
               </div>
             </div>
@@ -183,7 +183,7 @@ export default function HomePage() {
                 </p>
                 <p>
                   <b>Link git : </b>{" "}
-                  https://github.com/thong1403/react-flixGo.git
+                 <a href=" https://github.com/thong1403/react-flixGo.git"> https://github.com/thong1403/react-flixGo.git</a>
                 </p>
               </div>
             </div>
@@ -210,7 +210,7 @@ export default function HomePage() {
                 </p>
                 <p>
                   <b>Link mô tả Deploy : </b>{" "}
-                  https://thong1403.github.io/web-sf/
+                  <a href="https://thong1403.github.io/web-sf/">https://thong1403.github.io/web-sf/</a>
                 </p>
               </div>
             </div>
