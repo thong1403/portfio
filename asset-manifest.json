@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/portfio/static/css/main.b7c8dae1.css",
-    "main.js": "/portfio/static/js/main.c05c788f.js",
+    "main.css": "/portfio/static/css/main.90dcb82a.css",
+    "main.js": "/portfio/static/js/main.875b10a7.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfio/static/js/787.28cb0dcd.chunk.js",
     "static/media/hinh-nen-cong-nghe-1.jpg": "/portfio/static/media/hinh-nen-cong-nghe-1.fd95c28f7ee8250a7ed7.jpg",
     "static/media/download (7).jpg": "/portfio/static/media/download (7).3b88d610e813022564e7.jpg",
+    "static/media/Trang-chu-01-min.jpg": "/portfio/static/media/Trang-chu-01-min.89648c3f66c1ae2b5ef7.jpg",
     "static/media/1538998300flixgothumb.jpg": "/portfio/static/media/1538998300flixgothumb.474500255db25617eb3f.jpg",
+    "static/media/Rikkei-Tai-Ptit-2022.2.jpg": "/portfio/static/media/Rikkei-Tai-Ptit-2022.2.2ccad6894f55a74f93a3.jpg",
     "static/media/3Iki2GeMqojXZtpTDg0C_64215869d7220_cvtpl.jpg": "/portfio/static/media/3Iki2GeMqojXZtpTDg0C_64215869d7220_cvtpl.b39c053a0c229ab791b9.jpg",
     "static/media/th (1).jpg": "/portfio/static/media/th (1).5489f6bb648b11542c33.jpg",
     "static/media/th (3).jpg": "/portfio/static/media/th (3).badbb525d70917a109ed.jpg",
     "index.html": "/portfio/index.html",
-    "main.b7c8dae1.css.map": "/portfio/static/css/main.b7c8dae1.css.map",
-    "main.c05c788f.js.map": "/portfio/static/js/main.c05c788f.js.map",
+    "main.90dcb82a.css.map": "/portfio/static/css/main.90dcb82a.css.map",
+    "main.875b10a7.js.map": "/portfio/static/js/main.875b10a7.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7c8dae1.css",
-    "static/js/main.c05c788f.js"
+    "static/css/main.90dcb82a.css",
+    "static/js/main.875b10a7.js"
   ]
 }
