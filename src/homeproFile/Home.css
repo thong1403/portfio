@@ -7,6 +7,9 @@
     background-color: white;
     padding: 2%;
     border-radius: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px #888888;
+
     
 }
 .tongthongtin{
@@ -24,6 +27,9 @@
     padding: 1%;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+    -webkit-box-shadow: -10px 15px 38px -4px rgba(245,231,245,1);
+    -moz-box-shadow: -10px 15px 38px -4px rgba(245,231,245,1);
+    box-shadow: -10px 15px 38px -4px rgba(245,231,245,1);
 }
 .tong-khung-kinhnghieem img{
     border-top-left-radius: 50px;
@@ -35,8 +41,8 @@
 }
 .khung-to{
     position: absolute;
-    top: 16%;
-    left: 3%;
+    top: 10%;
+    left: 1%;
 }
 .khung-profile{
     color: rgb(229, 202, 202);
@@ -44,13 +50,14 @@
     font-weight: 600;
 }
 .content-thongtin{
-    margin-top: 65px;
+    margin-top: 10%;
+    font-weight: 600;
+    padding: 20px;
 } 
 .tongthongtin{
-    margin-top: 13%;
+    margin-top: 8%;
 }
 .name{
-    
     background-color: white;
 }
 .content-duan {
@@ -66,3 +73,38 @@
 .img2{
     height: 142px;
 }
+
+
+.title-description {
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 80%;
+    animation: animationTitleDescription 5s linear infinite;
+
+   
+}
+@keyframes animationTitleDescription {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+
+  .fade-out-text {
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #888888;
+    color: white;
+  }
+  .fade-out-text-2{
+    text-shadow: 2px 2px 4px #888888;
+  }
+  

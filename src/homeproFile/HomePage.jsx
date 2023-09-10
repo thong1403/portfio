@@ -7,7 +7,9 @@ import sf from "../img/download (7).jpg";
 import imgBackgroud from "../img/hinh-nen-cong-nghe-1.jpg";
 import img1 from "../img/th (1).jpg";
 import img2 from "../img/th (3).jpg";
+import logoRikkei from"../img/Rikkei-Tai-Ptit-2022.2.jpg"
 import img3 from "../img/1538998300flixgothumb.jpg";
+import img4 from "../img/Trang-chu-01-min.jpg"
 
 export default function HomePage() {
   useEffect(() => {
@@ -22,14 +24,14 @@ export default function HomePage() {
       <div className="khung-to">
         <div className="khung-profile">
           <img src={imgProfile} alt="" className="img-profile" />
-          <h3 className="mt-2">LÊ XUÂN THỐNG</h3>
-          <p>FRONT-END REACT DEVELOPER JAVASCRIPT </p>
+          <h3 className="mt-2 fade-out-text">LÊ XUÂN THỐNG</h3>
+          <p className="fade-out-text-2"> FRONT-END REACT DEVELOPER JAVASCRIPT </p>
         </div>
         <div className="container mt-5">
           <div className="row tongthongtin">
             <div className="col-1"></div>
             <div className="col-4 ">
-              <h5 class="text-white" data-aos="fade-right">
+              <h5 class="text-white fade-out-text-2" data-aos="fade-right">
                 THÔNG TIN CÁ NHÂN & LIÊN HỆ
               </h5>
               <div className="text-left mt-5">
@@ -49,7 +51,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="col-4  ">
-              <h5 class="text-white" data-aos="fade-left">
+              <h5 class="text-white fade-out-text-2" data-aos="fade-left">
                 GIỚI THIỆU BẢN THÂN
               </h5>
               <p
@@ -68,12 +70,26 @@ export default function HomePage() {
           </div>
         </div>
         <div className="row tongthongtin">
-          <h3 class="text-white mb-5" data-aos="fade-up">
+          <h2 class="text-white mb-5 title-description ">
             KINH NGHIỆM LÀM VIỆC
-          </h3>
+          </h2>
 
-          <div className="col-2"></div>
-          {/* <div className="col-3 tong-khung-kinhnghieem" data-aos="fade-up">
+          {/* <div className="col-2"></div> */}
+          <div className="col-3 tong-khung-kinhnghieem" data-aos="fade-right">
+          <img src={img4} alt="" className="w-100 h-50" />
+            <div className="text-left container-kinhnghiem">
+              <p>
+                <b>WORKING TIME </b> : MONTH 6/2023 - 9/2022{" "}
+              </p>
+              <p>
+                <b>POSITION : </b> INTERN FRONTEND
+              </p>
+              <p>
+                <b>WORKPLACE : </b> RIKKEI ACADEMY
+              </p>
+            </div>
+          </div>
+          <div className="col-3 tong-khung-kinhnghieem" data-aos="fade-up">
             <img src={logoRikkei} alt="" className="w-100 h-50" />
             <div className="text-left container-kinhnghiem">
               <p>
@@ -86,8 +102,8 @@ export default function HomePage() {
                 <b>WORKPLACE : </b> D8 RIKKEISOFT
               </p>
             </div>
-          </div> */}
-          <div className="col-3 tong-khung-kinhnghieem" data-aos="fade-up">
+          </div>
+          <div className="col-3 tong-khung-kinhnghieem" data-aos="fade-left">
             <img src={sf} alt="" className="w-100 h-50" />
             <div className="text-left container-kinhnghiem">
               <p>
@@ -101,11 +117,12 @@ export default function HomePage() {
               </p>
             </div>
           </div>
-          <div className="col-2"></div>
+
+          {/* <div className="col-2"></div> */}
         </div>
-        <div className="container">
+        <div className="container mb-5">
           <div className="row mt-5">
-            <h3 class="text-white mt-5 mb-5" data-aos="fade-up">DỰ ÁN </h3>
+            <h3 class="text-white mt-5 mb-5 title-description" data-aos="fade-up">DỰ ÁN CÁ NHÂN </h3>
             <div className="col-3 content-duan " data-aos="fade-up">
               <img src={img1} alt="" className="w-100 " />
               <h5>Web Học Tập QUIZLET</h5>
